@@ -4,7 +4,7 @@ export default function App() {
 
   return (
     <div>
-        App
+        <h1>Tenzies</h1>
     </div>
   )
 }
