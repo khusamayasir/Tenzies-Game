@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react"
 
-export default function die() {
+export default function Die() {
+
   return (
-    <div>die</div>
+      <div>...</div>
   )
 }
