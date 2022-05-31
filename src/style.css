@@ -28,3 +28,9 @@ h1 {
     font-size: 40px;
     margin: 0;
 }
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
