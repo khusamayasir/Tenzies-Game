@@ -12,5 +12,7 @@ body {
 }
 
 main {
-
+    height: 400px;
+    max-width: 800px;
+    background-color: whitesmoke;
 }
