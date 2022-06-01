@@ -42,19 +42,6 @@ p {
     margin-bottom: 40px;
 }
 
-
-.roll-dice {
-    height: 50px;
-    width: 100px;
-    border: none;
-    border-radius: 6px;
-    background-color: #5035FF;
-    color: white;
-    cursor: pointer;
-    font-size: 1.2rem;
-    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.18);
-}
-
 .die-face {
     grid-row: span 1;
     border-radius: 10px;
@@ -70,4 +57,16 @@ p {
 .die-number {
     font-size: 2em;
     font-weight: lighter;
+}
+
+.roll-dice {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.18);
 }
