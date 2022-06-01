@@ -52,5 +52,6 @@ p {
 }
 
 .die-number {
-
+    font-size: 2em;
+    font-weight: lighter;
 }
