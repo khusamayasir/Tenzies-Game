@@ -35,6 +35,11 @@ p {
     margin-top: 0;
 }
 
+.die-container {
+
+}
+
+
 .roll-dice {
     height: 50px;
     width: 100px;
