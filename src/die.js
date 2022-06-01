@@ -3,7 +3,7 @@ import React from "react"
 export default function Die() {
 
   return (
-      <div>
+      <div className="die-face">
           <h2></h2>
       </div>
   )
