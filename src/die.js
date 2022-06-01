@@ -4,7 +4,7 @@ export default function Die() {
 
   return (
       <div className="die-face">
-          <h2></h2>
+          <h2 className="die-numbers"></h2>
       </div>
   )
 }
