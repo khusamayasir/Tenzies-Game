@@ -1,10 +1,10 @@
 import React from "react"
 
-export default function Die() {
+export default function Die(props) {
 
   return (
-      <div className="die-face">
-          <h2 className="die-numbers"></h2>
+      <div className="die-face" onClick={props.hold} style={styles}>
+          <h2 className="die-numbers">{props.value}</h2>
       </div>
   )
 }
