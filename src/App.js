@@ -53,6 +53,11 @@ export default function App() {
             die
         }))
     }
+    
+    const diceElements = dice.map(die => (
+        <Die/>
+    ))
+
 
   return (
     <main>
