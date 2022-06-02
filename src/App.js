@@ -15,6 +15,10 @@ export default function App() {
         }
     }, [dice])
 
+    function generateNewDice() {
+
+    }
+
     function allNewDice() {
         const newDice = []
         for (let i = 0; i < 10; i++) {
