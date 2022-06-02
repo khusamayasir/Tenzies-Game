@@ -1,14 +1,12 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 body {
-    background-color: #0b2434;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 20px;
+    margin:0;
+    background-color: #0B2434;
+    padding:20px;
     font-family: 'Karla', sans-serif;
-    font-weight: 700;
-    text-align: center;
 }
 
 main {
