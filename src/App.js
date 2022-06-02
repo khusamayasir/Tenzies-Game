@@ -16,7 +16,10 @@ export default function App() {
     }, [dice])
 
     function generateNewDice() {
-
+        return {
+            value:Math.ceil(Math.random() * 6),
+            isHeld:false,
+        }
     }
 
     function allNewDice() {
