@@ -1,5 +1,6 @@
 import React from "react"
 import Die from "./Die"
+import {nanoid} from "nanoid"
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
         return {
             value:Math.ceil(Math.random() * 6),
             isHeld:false,
+            id: nanoid()
         }
     }
 
