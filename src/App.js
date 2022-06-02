@@ -1,5 +1,5 @@
 import React from "react"
-import Die from "./Die"
+import Die from "./components/Die.js"
 import Darkmode from "./components/Darkmode.js"
 import {nanoid} from "nanoid"
 import Confetti from "react-confetti"

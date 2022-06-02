@@ -6,6 +6,10 @@
 	color: white;
 }
 
+.dark-mode p {
+	color: white;
+}
+
 .btn {
 	margin-bottom: 20px;
 	background-color: #e1e1e1;
