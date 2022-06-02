@@ -3,6 +3,9 @@ import Die from "./Die"
 
 export default function App() {
 
+    const [dice, setDice] = React.useState(allNewDice())
+    const [tenzies, setTenzies] = React.useState(false)
+
   return (
     <main>
         <h1>Tenzies</h1>
