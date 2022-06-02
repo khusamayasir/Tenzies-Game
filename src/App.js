@@ -32,6 +32,10 @@ export default function App() {
         return newDice
     }
 
+    function rollDice() {
+        
+    }
+
   return (
     <main>
         <h1>Tenzies</h1>
