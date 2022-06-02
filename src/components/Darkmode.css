@@ -1,3 +1,12 @@
 .dark-mode {
 	background-color: black;
 }
+
+.btn {
+	margin-bottom: 20px;
+	background-color: #e1e1e1;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+	box-sizing: border-box;
+}
