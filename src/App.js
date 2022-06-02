@@ -80,7 +80,7 @@ export default function App() {
             >
                 {tenzies ? "New Game" : "Roll"}
             </button>
-            <Darkmode/>
+            <Darkmode handleToggleDarkMode={setDarkMode} />
         </main>
     )
 }
