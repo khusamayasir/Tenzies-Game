@@ -15,6 +15,10 @@ export default function App() {
         }
     }, [dice])
 
+    function allNewDice() {
+        
+    }
+
   return (
     <main>
         <h1>Tenzies</h1>
