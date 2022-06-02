@@ -66,7 +66,7 @@ export default function App() {
     ))
     
     return (
-        <main>
+        <main className={`${darkMode && 'dark-mode'}`}>
             {tenzies && <Confetti />}
             <h1 className="title">Tenzies</h1>
             <p className="instructions">Roll until all dice are the same. 
