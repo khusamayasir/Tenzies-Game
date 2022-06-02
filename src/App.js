@@ -33,7 +33,17 @@ export default function App() {
     }
 
     function rollDice() {
-        
+        if (!tenzies) {
+            setDice(oldDice => oldDice.map(die => {
+                return die.isHeld ?
+                die: 
+                generateNewDice()
+            }))
+        } 
+        else {
+            setTenzies(false)
+            setDice(allNewDice())
+        }
     }
 
   return (
@@ -41,7 +51,7 @@ export default function App() {
         <h1>Tenzies</h1>
         <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         <div claasName="die-container"></div>
-        <button className="roll-dice">
+        <button className="roll-dice" onClick={rollDice}>
             Roll
         </button>
     </main>
