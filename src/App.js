@@ -46,6 +46,10 @@ export default function App() {
         }
     }
 
+    function holdDice() {
+
+    }
+
   return (
     <main>
         <h1>Tenzies</h1>
