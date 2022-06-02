@@ -1,11 +1,14 @@
 import React from "react"
+import "./Darkmode.css"
 
-export default function DarkMode() {
-  return (
-    <div className="dark">
-		<button className="btn" >
-			Toggle Mode
-		</button>
-    </div>
-  )
+const Darkmode = ({ handleToggleDarkMode }) => {
+	return (
+		<div className="dark">
+			<button className="btn" onClick={() => handleToggleDarkMode((previousDarkMode) => !previousDarkMode)}>
+				Toggle Mode
+			</button>
+		</div>
+	)
 }
+
+export default Darkmode;
