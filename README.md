@@ -7,7 +7,7 @@
 - CSS
 - React
 
-## Preview:
+## Preview
 
 ![preview](./preview/lite-mode.png)
 ![preview](./preview/dark-mode.png)
@@ -16,7 +16,7 @@
 ![preview](./preview/winning-litemode.png)
 ![preview](./preview/winning-darkmode.png)
 
-## Contact Me:
+## Contact Me
 - LinkedIn - [khusamayasir](https://www.linkedin.com/in/khusamayasir/)
 - Twitter - [khusamayasir](https://www.twitter.com/khusamayasir)
 - Instagram - [khusamayasir](https://www.instagram.com/khusamayasir)
